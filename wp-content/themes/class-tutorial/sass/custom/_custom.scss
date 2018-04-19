@@ -1,0 +1,12 @@
+.menu {
+  text-align: center;
+}
+menu li {
+  display: inline-block;
+  float: none;
+  margin-left: -5px;
+}
+menu li li {
+  display: block;
+  text-align: left;
+}
