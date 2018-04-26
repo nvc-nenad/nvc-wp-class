@@ -1,12 +1,52 @@
-.menu {
+.main-navigation {
+  ul {
+    display: block;
+    text-align: center;
+  }
+  li {
+    a {
+      color: #414141;
+      margin: 0px .5em;
+      &:hover,
+      &:focus {
+        text-decoration: underline;
+      }
+    }
+    float: none !important;
+    display: inline-block;
+    position: relative;
+  }
+}
+
+.navigation-bar {
+  background: rgba(150, 150, 150, 0.3);
+  border-bottom: 1px solid #d3d3d3;
+  padding: .5em;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+}
+
+.developer-section {
+  padding-left: 0px;
+  padding-right: 0px;
+  height: 50vh;
+  background: url(https://images.unsplash.com/photo-1492138786289-d35ea832da43) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.site-content {
+  padding-top: 60px;
+}
+.hero-heading {
+  h1 {
+    color: white;
+  }
+  width: 100%;
   text-align: center;
+  background: rgba(0,0,0,0.6);
+  padding: 1em 0;
 }
-menu li {
-  display: inline-block;
-  float: none;
-  margin-left: -5px;
-}
-menu li li {
-  display: block;
-  text-align: left;
+.featured-blog {
+  margin-top: 2em;
 }
