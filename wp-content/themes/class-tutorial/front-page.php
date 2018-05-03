@@ -38,10 +38,18 @@ get_header();
 
           <div class="row excerpt align-middle">
             <div class="col-md-2">
-              <?php the_post_thumbnail( 'thumbnail' ); ?>
+              <a href="<?php echo get_the_permalink(); ?>">
+                <?php the_post_thumbnail( 'thumbnail' ); ?>
+              </a>
             </div>
             <div class="col-md-10">
-              <?php the_title('<h4>','</h4>'); ?>
+
+
+              <a href="<?php echo get_the_permalink(); ?>">
+                <?php the_title('<h4>','</h4>'); ?>
+              </a>
+
+
               <?php the_excerpt(); ?>
             </div>
           </div>
@@ -56,6 +64,17 @@ get_header();
     ?>
 
   </div>
+
+</div>
+
+<!-- Contact Me Section -->
+
+<div class="container featured-blog">
+  <div class="jumbotron">
+    <h3>Contact Me</h3>
+  </div>
+  
+<?php echo do_shortcode('[contact-form-7 id="1743" title="Contact form 1"]'); ?>
 
 </div>
 

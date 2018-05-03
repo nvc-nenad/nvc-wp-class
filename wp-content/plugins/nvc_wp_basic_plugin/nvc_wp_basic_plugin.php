@@ -22,4 +22,3 @@ function nvcwp_basic_plugin() {
 }
 
 add_action( 'admin_init', 'nvcwp_basic_plugin' );
-

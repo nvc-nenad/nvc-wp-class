@@ -1,3 +1,4 @@
+
 .main-navigation {
   ul {
     display: block;
@@ -5,7 +6,7 @@
   }
   li {
     a {
-      color: #414141;
+      color: #ffffff;
       margin: 0px .5em;
       &:hover,
       &:focus {
@@ -19,7 +20,7 @@
 }
 
 .navigation-bar {
-  background: rgba(150, 150, 150, 0.3);
+  background: rgba(0, 0, 0, 0.7);
   border-bottom: 1px solid #d3d3d3;
   padding: .5em;
   position: fixed;
@@ -31,13 +32,10 @@
   padding-left: 0px;
   padding-right: 0px;
   height: 50vh;
-  background: url(/images/dev-bg.jpeg) no-repeat center center fixed; 
+  background: url(/images/dev-bg.jpeg) no-repeat center center fixed;
   background-size: cover;
 }
 
-.site-content {
-  padding-top: 60px;
-}
 .hero-heading {
   h1 {
     color: white;
@@ -49,4 +47,8 @@
 }
 .featured-blog {
   margin-top: 2em;
+}
+
+.single-post-page {
+  padding-top: 5em;
 }
